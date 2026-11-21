@@ -1,0 +1,84 @@
+
+<html>
+<head>
+    <title>Employee Registration Form</title>
+</head>
+
+<body bgcolor="lightblue" align="center">
+
+    <h1>Employee Registration Form</h1>
+
+    <form>
+
+        Employee Name:
+        <input type="text" name="g1" placeholder="Enter your name" autofocus>
+        <br><br>
+
+        Password:
+        <input type="password" name="g2" required>
+        <br><br>
+
+        Email:
+        <input type="email" name="g3" required>
+        <br><br>
+
+        Mobile Number:
+        <input type="tel" name="g4" pattern="[0-9]{10}" required>
+        <br><br>
+
+        Age:
+        <input type="number" name="g5" min="0" required>
+        <br><br>
+
+        Date of Birth:
+        <input type="date" name="g6" required>
+        <br><br>
+
+        Preferred Interview Time:
+        <input type="time" name="g7" required>
+        <br><br>
+
+        Gender:
+        <input type="radio" name="g8" value="male" required> Male
+        <input type="radio" name="g8" value="female"> Female
+        <br><br>
+
+        Skills:
+        <input type="checkbox" name="g9" value="HTML"> HTML
+        <input type="checkbox" name="g9" value="CSS"> CSS
+        <input type="checkbox" name="g9" value="JavaScript"> JavaScript
+        <br><br>
+
+        Select Department:
+        <select name="department">
+            <option>Select Department</option>
+            <option>HR</option>
+            <option>IT</option>
+            <option>Finance</option>
+            <option>Marketing</option>
+        </select>
+        <br><br>
+
+        Upload Resume:
+        <input type="file" name="resume">
+        <br><br>
+
+        Address:
+        <textarea name="address" rows="6" cols="40" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        Work Experience:
+        <input type="range" name="experience" min="0" max="10">
+        <br><br>
+
+        LinkedIn Profile:
+        <input type="url" name="linkedin" placeholder="Enter LinkedIn URL">
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="reset">
+
+    </form>
+
+</body>
+</html>
